@@ -1,9 +1,9 @@
 <?php
 
   session_start();
-  $db = 'mysql:dbname=chat;host=localhost';
-  $user = 'tom';
-  $password = 'raspberry';
+  $db = 'mysql:dbname=DBNAME;host=localhost';
+  $user = '';
+  $password = '';
   try
   {
     $con = new PDO($db, $user, $password);
